@@ -16,5 +16,6 @@ luna-email --to ala@example.org --subject Temat --body Tresc
 luna-email 'mailto:ala@example.org?subject=Temat&body=Tresc'
 ```
 
-Wymaga libLuna (ścieżki `../libluna` w monorepo) i kompozytora Selene.
+Wymaga kompozytora Selene. libLunę `cargo` pobiera z repozytorium
+https://github.com/LunaDesktop/libLuna (w monorepo Luna są to ścieżki `../libluna`).
 Więcej: `docs/email.md` w monorepo Luna.

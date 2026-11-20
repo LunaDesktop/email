@@ -930,7 +930,7 @@ dependencies = [
  "libc",
  "option-ext",
  "redox_users 0.5.3",
- "windows-sys 0.61.2",
+ "windows-sys 0.60.2",
 ]
 
 [[package]]
@@ -1131,7 +1131,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "e35d6e78f4cebb90e51d543db8fe41528851d6deeef6ef21ebd4bfdc1e784776"
 dependencies = [
  "libc",
- "windows-sys 0.61.2",
+ "windows-sys 0.52.0",
 ]
 
 [[package]]
@@ -2012,10 +2012,12 @@ dependencies = [
 [[package]]
 name = "libluna-core"
 version = "0.0.9"
+source = "git+https://github.com/LunaDesktop/libLuna.git#b1aaea7ef5ae21792640dc004bd49c47164603e6"
 
 [[package]]
 name = "libluna-i18n"
 version = "0.0.9"
+source = "git+https://github.com/LunaDesktop/libLuna.git#b1aaea7ef5ae21792640dc004bd49c47164603e6"
 dependencies = [
  "libluna-core",
 ]
@@ -2023,6 +2025,7 @@ dependencies = [
 [[package]]
 name = "libluna-platform"
 version = "0.0.9"
+source = "git+https://github.com/LunaDesktop/libLuna.git#b1aaea7ef5ae21792640dc004bd49c47164603e6"
 dependencies = [
  "calloop",
  "libc",
@@ -2036,6 +2039,7 @@ dependencies = [
 [[package]]
 name = "libluna-render"
 version = "0.0.9"
+source = "git+https://github.com/LunaDesktop/libLuna.git#b1aaea7ef5ae21792640dc004bd49c47164603e6"
 dependencies = [
  "cosmic-text",
  "fontdue",
@@ -2047,6 +2051,7 @@ dependencies = [
 [[package]]
 name = "libluna-widgets"
 version = "0.0.9"
+source = "git+https://github.com/LunaDesktop/libLuna.git#b1aaea7ef5ae21792640dc004bd49c47164603e6"
 dependencies = [
  "libluna-core",
  "libluna-render",
@@ -2461,7 +2466,7 @@ version = "5.0.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "51e219e79014df21a225b1860a479e2dcd7cbd9130f4defd4bd0e191ea31d67d"
 dependencies = [
- "base64 0.22.1",
+ "base64 0.21.7",
  "chrono",
  "getrandom 0.2.17",
  "http",
@@ -3184,7 +3189,7 @@ dependencies = [
  "errno",
  "libc",
  "linux-raw-sys 0.4.15",
- "windows-sys 0.59.0",
+ "windows-sys 0.52.0",
 ]
 
 [[package]]
@@ -3197,7 +3202,7 @@ dependencies = [
  "errno",
  "libc",
  "linux-raw-sys 0.12.1",
- "windows-sys 0.61.2",
+ "windows-sys 0.52.0",
 ]
 
 [[package]]
@@ -3275,7 +3280,7 @@ dependencies = [
  "security-framework 3.7.0",
  "security-framework-sys",
  "webpki-root-certs",
- "windows-sys 0.61.2",
+ "windows-sys 0.52.0",
 ]
 
 [[package]]
@@ -3296,7 +3301,7 @@ dependencies = [
  "security-framework 3.7.0",
  "security-framework-sys",
  "webpki-root-certs",
- "windows-sys 0.61.2",
+ "windows-sys 0.52.0",
 ]
 
 [[package]]
@@ -3735,7 +3740,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "c3d1e2c7f27f8d4cb10542a02c49005dbd6e93095799d6f3be745fae9f8fedd4"
 dependencies = [
  "libc",
- "windows-sys 0.61.2",
+ "windows-sys 0.60.2",
 ]
 
 [[package]]
@@ -3770,7 +3775,7 @@ dependencies = [
  "cfg-if",
  "libc",
  "psm",
- "windows-sys 0.61.2",
+ "windows-sys 0.60.2",
 ]
 
 [[package]]
@@ -3884,7 +3889,7 @@ dependencies = [
  "getrandom 0.4.3",
  "once_cell",
  "rustix 1.1.6",
- "windows-sys 0.61.2",
+ "windows-sys 0.52.0",
 ]
 
 [[package]]
@@ -4121,7 +4126,7 @@ checksum = "f2f6fb2847f6742cd76af783a2a2c49e9375d0a111c7bef6f71cd9e738c72d6e"
 dependencies = [
  "memoffset",
  "tempfile",
- "windows-sys 0.61.2",
+ "windows-sys 0.60.2",
 ]
 
 [[package]]
@@ -4494,7 +4499,7 @@ version = "0.1.11"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "c2a7b1c03c876122aa43f3020e6c3c3ee5c05081c9a00739faf7503aeba10d22"
 dependencies = [
- "windows-sys 0.61.2",
+ "windows-sys 0.52.0",
 ]
 
 [[package]]
